@@ -1,0 +1,27 @@
+.card {
+  margin: 20px;
+  width: 18rem;
+ 
+  background-image: radial-gradient(circle, rgb(100, 196, 237), rgb(87, 180, 229), rgb(80, 163, 221), rgb(77, 146, 211), rgb(79, 129, 199));;
+
+}
+.card.warm {
+  background-image: radial-gradient(circle, rgb(196, 182, 182), rgb(178, 165, 165), rgb(160, 148, 148), rgb(143, 132, 132), rgb(126, 116, 116));
+
+}
+
+.card-title {
+  margin-bottom: 15px;
+}
+
+#closeIcon {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 8px;
+  margin-top: 8px;
+}
+
+.card-body {
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+}
